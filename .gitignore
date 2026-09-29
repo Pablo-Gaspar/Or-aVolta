@@ -1,0 +1,21 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build
+node_modules/
+.next/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+
+# Local/editor files
+.DS_Store
+.vscode/
+.idea/
+*.log
